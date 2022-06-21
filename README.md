@@ -31,15 +31,15 @@ To Start Server:
 
 To Create Database run this script:
 
-`CREATE DATABASE  IF NOT EXISTS 'tictactoeSystem';
+CREATE DATABASE  IF NOT EXISTS `tictactoeSystem`;
 USE 'tictactoeSystem';
 
-CREATE TABLE 'games' (
-  'id' int NOT NULL AUTO_INCREMENT,
-  'savedGame' text NOT NULL,
-  'winner' text,
-  PRIMARY KEY ('id')
+CREATE TABLE `games` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `savedGame` text NOT NULL,
+  `winner` text,
+  PRIMARY KEY (`id`)
 );
-`
+
 
 ## Enjoy Playing!
