@@ -32,7 +32,7 @@ To Start Server:
 To Create Database run this script:
 
 CREATE DATABASE  IF NOT EXISTS `tictactoeSystem`;
-USE 'tictactoeSystem';
+USE `tictactoeSystem`;
 
 CREATE TABLE `games` (
   `id` int NOT NULL AUTO_INCREMENT,
